@@ -5,6 +5,7 @@
   "dependencies": {
     "@babel/core": "^7.3.3",
     "@storybook/react": "^4.1.11",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
