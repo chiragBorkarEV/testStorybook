@@ -1,20 +1,25 @@
 {
-  "name": "test_storybook",
+  "name": "storybook_common_components",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "^7.3.3",
-    "@storybook/react": "^4.1.11",
-    "@storybook/storybook-deployer": "^2.8.1",
+    "@babel/core": "^7.2.2",
+    "@lord-abbett/common-components": "1.0.1",
+    "@storybook/addon-info": "^4.1.13",
+    "@storybook/addon-viewport": "^4.1.13",
+    "@storybook/react": "4.1.13",
     "babel-loader": "^8.0.5",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
+    "react-scripts": "2.1.5",
+    "storybook-readme": "^4.0.5"
   },
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "build-storybook": "build-storybook -s build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
